@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript practice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bek.css">
+</head>
+<body>
+    
+    <div class="container-1">
+
+
+        <h2 class="text-center">Challenge 1: Your Age in Days</h2>
+
+        <div class="flexbox-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="click_me()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+
+        
+        <div class="flexbox-container-1">
+            <div id="natija"></div>
+        </div>
+
+
+
+        <div class="container-2">
+            <h2 class="text-center">Challenge 2: Cat Generator</h2>
+            <button class="btn btn-success" id="generateCat" onclick="catGenerate()">Generate cat</button>
+            <div class="flexbox-container-2" id="catGen-box">
+                <!-- <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+                <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+                <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+                <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+                <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+                <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt=""> -->
+            </div>
+
+
+            <div class="container-3">
+                <h2 class="text-center">Challenge3: Rock,Paper,Scissors</h2>
+                <div class="flexbox-container-3" id="flexbox-container-3">
+                    <span>
+                        <img id="rock" src="https://www.nicepng.com/png/detail/6-61708_rock-rock-paper-scissors-clipart.png" alt="" onclick="rpsGame(this)">
+                    </span>
+                    <span class="remove" id="remove">
+                        <img id="scissors" src="https://www.kindpng.com/picc/m/502-5025794_rock-paper-scissors-clipart-hd-png-download.png" alt="" onclick="rpsGame(this)">
+                    </span>
+                    <span>
+                        <img id="paper" src="https://www.vhv.rs/dpng/d/490-4906131_rock-paper-scissors-clipart-rock-paper-scissors-png.png" alt="" onclick="rpsGame(this)">
+                    </span>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+
+   
+   
+   
+   
+   
+    <script src="bek.js">
+    </script>
+</body>
+</html>
