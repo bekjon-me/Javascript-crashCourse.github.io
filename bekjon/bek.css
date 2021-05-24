@@ -52,10 +52,6 @@
     /* border: 1px solid red; */
     margin: 10px 30px;
 }
-#messageDiv{
-    color: red;
-    line-height: 150px;
-}
 .container-3 img:hover {
     box-shadow: 0px 10px 20px rgba(37, 50, 233, 1);
 }
