@@ -1,0 +1,123 @@
+.container-1,
+.container-5 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    /* margin-bottom: 5rem; */
+}
+
+
+.flexbox-container-1,
+.container-4,
+.flex-blackjack-row-3,
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flexbox-container-1 div {
+    /* border: 1px solid black; */
+    padding: 10px;
+    align-items: center;
+}
+
+#matn {
+    color: red;
+}
+
+.container-2 {
+    text-align: center;
+}
+
+.container-2 button {
+    margin-bottom: .8rem;
+}
+
+.container-2 .flexbox-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid blue;
+
+}
+
+.container-2 img {
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .7);
+}
+
+.container-3>.flexbox-container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-3 img {
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin: 10px 30px;
+}
+
+.container-3 img:hover {
+    box-shadow: 0px 10px 20px rgba(37, 50, 233, 1);
+}
+
+.container-4 button {
+    margin: 10px;
+}
+
+.container-4 select {
+    margin-top: 1rem;
+}
+
+.container-4 h2 {
+    width: 100%;
+}
+
+/* Challenge5: Blackjack */
+
+.container-5 tr,
+.container-5 th,
+.container-5 td {
+    border: 1px solid #000;
+}
+
+.container-5 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('https://media.istockphoto.com/vectors/poker-table-background-in-green-color-vector-id1206505233?k=6&m=1206505233&s=612x612&w=0&h=3yK8zXZmrh3-tRVtw0wY-AiTTwnqFf_mmNlIGAjlr4E=') center;
+    color: #fff;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid #000;
+    height: 350px;
+    flex: 1;
+}
+.flex-blackjack-row-2 div {
+    padding: 10px;
+}
+.flex-blackjack-row-2 button {
+    margin: 10px;
+}
+.flex-blackjack-row-2 button, .flex-blackjack-row-2 div  {
+    border: 1px solid #000;
+}
+
+#cardImage {
+    width: 70px;
+    height: 100px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
