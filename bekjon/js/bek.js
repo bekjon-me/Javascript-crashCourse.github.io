@@ -1,5 +1,5 @@
 function click_me() {
-    var userDateOfBirth = prompt("What year were you born?");
+    var userDateOfBirth = prompt("What year were you born?(Nechanchi yilda tug'ilgansiz)");
     var sana = new Date().getFullYear();
     var result = (sana - userDateOfBirth) * 365;
     var h1 = document.createElement("h1");
