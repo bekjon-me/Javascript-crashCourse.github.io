@@ -220,6 +220,8 @@ function blackjackDeal() {
     for (i = 0; i < dealerImages.length; i++) {
         dealerImages[i].remove();
     }   
+    YOU.score = 0;
+    DEALER.score = 0;
     document.querySelector(YOU.scoreSpan).textContent = 0;
     document.querySelector(YOU.scoreSpan).style.color = '#fff';
     document.querySelector(DEALER.scoreSpan).textContent = 0;
