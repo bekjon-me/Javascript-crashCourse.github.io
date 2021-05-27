@@ -283,7 +283,7 @@ async function blackjackStand() {
         updateScore(card, DEALER);
         showScore(DEALER);
         await sleep(1000);
-    } if(DEALER.score > 16 && blackjackGame.isStand === true) {
+    } if(DEALER.score >= 16 && blackjackGame.isStand === true) {
         blackjackGame.turnOvers = true;
         var winner = computeWinner();
         Score(winner);
