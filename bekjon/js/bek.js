@@ -181,7 +181,7 @@ var blackjackGame = {
 };
 // console.log(blackjackGame.wins,blackjackGame.losses,blackjackGame.draws);
 var swish = new Audio('sounds/swish.mp3');
-var winSound = new Audio('sounds/cash.mp3');
+var winSound = new Audio('sounds/cash.wav');
 var lossSound = new Audio('sounds/aww.mp3');
 
 var YOU = blackjackGame.you;
