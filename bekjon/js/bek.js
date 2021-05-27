@@ -244,7 +244,7 @@ function blackjackDeal() {
 
         document.querySelector('#blackjack-result').style.color = '#000';
         document.querySelector('#blackjack-result').textContent = "Let's play";
-        blackjackGame.turnOvers = true;
+        blackjackGame.turnOvers = false;
     }
 }
 
